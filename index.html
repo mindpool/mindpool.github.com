@@ -1,78 +1,166 @@
-<!DOCTYPE html>
-<html>
-
+<html lang="en">
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="mindpool.github.com : The github site for MindPool, Inc." />
+    
+    <meta charset="utf-8" />
+    <title>mindpool</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="MindPool, Inc.'s Github Page " name="description" />
+    <meta content="MindPool Web Services Team" name="author" />
+    <meta content="mindpool,github,code,open source,community,development,cloud,big data,openstack,web services,messaging,rabbitmq,zeromq,rest,python,javascript,lisp,api,api design,databases,cassandra,hadoop,riak,mongodb,redis,technology,consulting,networking,quantum,nova,horizon,cinder,keystone,swift" name="keywords" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link href="/static/css/site.css" rel="stylesheet" />
 
-    <title>mindpool.github.com</title>
+    <!--[if lt IE 9]&gt;
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"&gt;</script&gt;
+    <![endif]-->
+
+    <link href="/static/ico/favicon.png" rel="shortcut icon" />
+    <link href="/static/ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144" />
+    <link href="/static/ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114" />
+    <link href="/static/ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72" />
+    <link href="/static/ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed" />
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-35180387-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
   </head>
+  <body class="splash">
 
-  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      
+  <div class="navbar-inner">
+    <div class="container">
+      <a data-toggle="collapse" class="btn btn-navbar" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li class=""><a href="/services">Services</a></li><li class=""><a href="/people">People</a></li><li class=""><a href="/cloud">Cloud Technologies</a></li><li class=""><a href="/opensource">Open Source</a></li><li class=" dropdown"><a data-toggle="dropdown" href="#" class="dropdown-toggle">About<b class="caret"></b></a><ul class="dropdown-menu"><li><a href="/about/who">Who We Are</a></li><li><a href="/about/what">What We Do</a></li><li><a href="/about/culture">Our Culture</a></li><li><a href="/about/social">Social Links</a></li><li><a href="/about/careers">Careers</a></li><li><a href="/about/contact">Contact Us</a></li><li class="divider"></li><li class="nav-header">Velankani</li><li><a href="http://www.velankani.net/velankani_group.htm">The Velankani Group</a></li><li><a href="http://www.visystems.org/">VI Systems</a></li></ul></li>
+        </ul>
+        <!-- No users for now; maybe later
+        <form class="navbar-form pull-right"&gt;
+          <input class="span2" type="text" placeholder="Email"&gt;
+          <input class="span2" type="password" placeholder="Password"&gt;
+          <button type="submit" class="btn"&gt;Sign in</button&gt;
+        </form&gt;
+        /-->
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/mindpool">View on GitHub</a>
-
-          <h1 id="project_title">mindpool.github.com</h1>
-          <h2 id="project_tagline">The github site for MindPool, Inc.</h2>
-
-        </header>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>Welcome to GitHub Pages.</h3>
+    
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+    <div class="jumbotron masthead">
+      <div class="container">
+        <img src="/static/img/moon-with-water-reflection-9-tiny-text.png" />
+        <br />
+        <p class="tagline">Providing Knowledge and Services for Tomorrow's Platforms</p>
+      </div>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+    <div class="container">
+      <!-- row of content columns -->
+      <div class="splash-page-text row">
+        <div class="span4">
+          <h2>Consulting</h2>
+          <p class="splash-blurb">
+Whether you need help bringing up infrastructure for a private cloud,
+customizing project management for a big data push, or bespoke networking
+applications, we have the depth and experience to help your teams meet their
+goals.
+</p>
+        </div>
+        <div class="span4">
+          <h2>Training</h2>
+          <p class="splash-blurb">
+We not only bring you customized solutions, we can train your staff to become
+experts in their own right. Upholders of open source principles, we empower
+you by sharing our knowledge and experience.
+</p>
+        </div>
+        <div class="span4">
+          <h2>Teams</h2>
+          <p class="splash-blurb">
+Our teams are a new take on providing cloud technology services. We've got an
+approach that will give you a final product with a smile. But just as
+importantly, you'll be smiling the whole time our teams are working with your
+teams.
+</p>
+        </div>
+      </div>
+
+      <!-- row of button columns -->
+      <div class="row">
+        <div class="span4">
+          <p>
+            <a href="
+                /services/consulting
+              " class="btn btn-mindpool">
+              View details »</a>
+          </p>
+        </div>
+        <div class="span4">
+          <p>
+            <a href="
+                /services/training
+              " class="btn btn-mindpool">
+              View details »</a>
+          </p>
+        </div>
+        <div class="span4">
+          <p>
+            <a href="
+                /people/teams
+              " class="btn btn-mindpool">
+              View details »</a>
+          </p>
+        </div>
+      </div>
+      
+  <div class="footer">
+    <div class="row-fluid">
+
+      <div class="well grey-well span12">
+        <div class="offices">
+          <center>
+            <span class="city">Bangalore</span>·<span class="city">San Francisco</span>
+          </center>
+        </div>
+      </div>
+
+      <div class="span12">
+        <div class="copyright"><p>© 2012 <a href="mailto:sales@mindpool.io">MindPool, Inc.</a></p></div>
+      </div>
+
+    </div>
+  </div> <!-- end footer -->
+
     </div>
 
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-35180387-3");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    <script src="/static/js/jquery.js"></script>
+    <script src="/static/js/bootstrap-transition.js"></script>
+    <script src="/static/js/bootstrap-alert.js"></script>
+    <script src="/static/js/bootstrap-dropdown.js"></script>
+    <script src="/static/js/bootstrap-button.js"></script>
+    <script src="/static/js/bootstrap-collapse.js"></script>
+    <script src="/static/js/bootstrap-carousel.js"></script>
 
 
   </body>
